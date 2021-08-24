@@ -20,7 +20,7 @@ const startApolloServer = async () => {
     path: "/graphql",
   });
 
-  await mongoose.connect("mongodb-url", {
+  await mongoose.connect("add your mongodb url here", {
     useNewUrlParser: true,
     useUnifiedTopology: true, 
   });
