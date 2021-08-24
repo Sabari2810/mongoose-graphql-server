@@ -20,7 +20,7 @@ const startApolloServer = async () => {
     path: "/graphql",
   });
 
-  await mongoose.connect("mongodb+srv://sabari:sabari%40123@cluster0.xhfhl.mongodb.net/mongoose-graphql?retryWrites=true&w=majority", {
+  await mongoose.connect("mongodb-url", {
     useNewUrlParser: true,
     useUnifiedTopology: true, 
   });
