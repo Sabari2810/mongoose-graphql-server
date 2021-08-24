@@ -1,4 +1,4 @@
-import { Cat } from "./models/Cat.js";
+import { Cat } from "./src/models/Cat.js";
 
 export const resolvers = {
   Query: {
